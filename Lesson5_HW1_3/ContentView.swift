@@ -17,12 +17,12 @@ struct ContentView: View {
             FirstTabView(persons: persons)
                 .tabItem {
                     Image(systemName: "person.circle")
-                    Text("Simple")
+                    Text("Simple List")
                 }
             SecondTabView(persons: persons)
                 .tabItem {
                     Image(systemName: "person.circle")
-                    Text("Segmented")
+                    Text("Segmented List")
                 }
         }
     }
