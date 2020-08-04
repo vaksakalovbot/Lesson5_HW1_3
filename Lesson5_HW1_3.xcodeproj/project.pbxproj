@@ -13,6 +13,12 @@
 		D4794F2724D995F40047FDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4794F2624D995F40047FDAB /* Assets.xcassets */; };
 		D4794F2A24D995F40047FDAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4794F2924D995F40047FDAB /* Preview Assets.xcassets */; };
 		D4794F2D24D995F40047FDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4794F2B24D995F40047FDAB /* LaunchScreen.storyboard */; };
+		D4794F3524D9990F0047FDAB /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4794F3424D9990F0047FDAB /* DataManager.swift */; };
+		D4794F3724D99B920047FDAB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4794F3624D99B920047FDAB /* Person.swift */; };
+		D4794F3924D99C960047FDAB /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4794F3824D99C960047FDAB /* FirstTabView.swift */; };
+		D4794F3B24D99CAC0047FDAB /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4794F3A24D99CAC0047FDAB /* SecondTabView.swift */; };
+		D4794F3D24D9A2B70047FDAB /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4794F3C24D9A2B70047FDAB /* ContactRow.swift */; };
+		D4794F3F24D9A3EA0047FDAB /* DetailContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4794F3E24D9A3EA0047FDAB /* DetailContactInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		D4794F2924D995F40047FDAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4794F2C24D995F40047FDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4794F2E24D995F40047FDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4794F3424D9990F0047FDAB /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D4794F3624D99B920047FDAB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D4794F3824D99C960047FDAB /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		D4794F3A24D99CAC0047FDAB /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
+		D4794F3C24D9A2B70047FDAB /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		D4794F3E24D9A3EA0047FDAB /* DetailContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				D4794F2024D995F30047FDAB /* AppDelegate.swift */,
 				D4794F2224D995F30047FDAB /* SceneDelegate.swift */,
 				D4794F2424D995F30047FDAB /* ContentView.swift */,
+				D4794F3824D99C960047FDAB /* FirstTabView.swift */,
+				D4794F3C24D9A2B70047FDAB /* ContactRow.swift */,
+				D4794F3E24D9A3EA0047FDAB /* DetailContactInfoView.swift */,
+				D4794F3A24D99CAC0047FDAB /* SecondTabView.swift */,
+				D4794F3624D99B920047FDAB /* Person.swift */,
+				D4794F3424D9990F0047FDAB /* DataManager.swift */,
 				D4794F2624D995F40047FDAB /* Assets.xcassets */,
 				D4794F2B24D995F40047FDAB /* LaunchScreen.storyboard */,
 				D4794F2E24D995F40047FDAB /* Info.plist */,
@@ -146,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4794F3F24D9A3EA0047FDAB /* DetailContactInfoView.swift in Sources */,
+				D4794F3724D99B920047FDAB /* Person.swift in Sources */,
+				D4794F3924D99C960047FDAB /* FirstTabView.swift in Sources */,
 				D4794F2124D995F30047FDAB /* AppDelegate.swift in Sources */,
+				D4794F3524D9990F0047FDAB /* DataManager.swift in Sources */,
 				D4794F2324D995F30047FDAB /* SceneDelegate.swift in Sources */,
+				D4794F3B24D99CAC0047FDAB /* SecondTabView.swift in Sources */,
 				D4794F2524D995F30047FDAB /* ContentView.swift in Sources */,
+				D4794F3D24D9A2B70047FDAB /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
